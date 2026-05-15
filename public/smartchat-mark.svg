@@ -1,0 +1,34 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Smartchat Logo</title>
+  <desc id="desc">A blue and teal smiling bot chat bubble surrounded by curved chat arcs.</desc>
+  <defs>
+    <linearGradient id="smartchatGradient" x1="18" y1="132" x2="138" y2="26" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1687F2"/>
+      <stop offset="0.48" stop-color="#17B9E8"/>
+      <stop offset="1" stop-color="#38D8C5"/>
+    </linearGradient>
+    <linearGradient id="smartchatShade" x1="42" y1="118" x2="120" y2="35" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F7FEB" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#4FE4CE" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="softDepth" x="0" y="0" width="160" height="160" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0A6DB7" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softDepth)">
+    <path d="M52.7 25.5C30.5 38.3 16.2 61.9 16.2 88.3C16.2 112 27.5 133.1 45.1 146.4" stroke="url(#smartchatGradient)" stroke-width="13.5" stroke-linecap="round"/>
+    <path d="M108.2 25.6C130.2 38.5 144.1 61.9 144.1 88.1C144.1 127.8 111.9 149.5 80.2 149.5C67.8 149.5 55.5 146.3 45.1 140.5" stroke="url(#smartchatGradient)" stroke-width="13.5" stroke-linecap="round"/>
+    <path d="M38.9 137.4L27.1 156L47.6 145.9" fill="url(#smartchatGradient)"/>
+
+    <circle cx="55" cy="24.5" r="11.5" fill="url(#smartchatGradient)"/>
+    <circle cx="105" cy="24.5" r="11.5" fill="url(#smartchatGradient)"/>
+
+    <path d="M35.5 70.5C35.5 47.6 52.1 35 80.2 35C108.4 35 124.8 47.6 124.8 70.5V92C124.8 112.8 111.5 124.8 88.6 126.6L62 143.7C60.6 144.6 58.8 143.4 59 141.8L61.2 126.3C45 122.6 35.5 111.1 35.5 92V70.5Z" fill="url(#smartchatGradient)"/>
+    <path d="M42 72C42 53.5 55.7 43.4 80.3 43.4C104.8 43.4 118.4 53.5 118.4 72V92.1C118.4 108.8 108.4 118.7 88 120.1L82.4 120.5L65.8 131.2L67.5 119.5L61.9 118.2C48.5 115.1 42 106.6 42 92.1V72Z" fill="url(#smartchatShade)" opacity="0.55"/>
+
+    <circle cx="58.8" cy="77.6" r="7.3" fill="#071118"/>
+    <circle cx="101.2" cy="77.6" r="7.3" fill="#071118"/>
+    <path d="M68.5 96.4C74.1 103.4 86 103.5 92 96.4" stroke="#071118" stroke-width="7" stroke-linecap="round"/>
+  </g>
+</svg>
